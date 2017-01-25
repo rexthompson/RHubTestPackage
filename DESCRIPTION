@@ -4,7 +4,7 @@ Title: Test Package for Familiarizing Myself with RHub Functionality
 Version: 0.1.0
 Author: Rex Thompson <RexS.Thompson@gmail.com>
 Maintainer: Rex Thompson <RexS.Thompson@gmail.com>
-Description: More about what it does (maybe more than one line)
+Description: This is a description of the package.
 License: GPL-3
 VignetteBuilder: knitr
 Repository: CRAN
