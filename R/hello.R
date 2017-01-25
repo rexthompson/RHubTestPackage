@@ -1,3 +1,8 @@
+#' @export
+#' @title Say Hello to a Friend
+#' @param friend a friend's name
+#' @description Says hello to a friend of your choice.
+
 # Hello, world!
 #
 # This is an example function named 'hello' 
@@ -13,6 +18,6 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
-hello <- function() {
-  print("Hello, world!")
+hello <- function(friend) {
+  print(paste0("Hello, ",friend,"!"))
 }
