@@ -4,7 +4,7 @@
 \alias{hello}
 \title{Say Hello to a Friend}
 \usage{
-hello(friend)
+hello(friend = NULL)
 }
 \arguments{
 \item{friend}{a friend's name}

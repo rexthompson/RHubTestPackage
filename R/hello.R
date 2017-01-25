@@ -18,6 +18,10 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
-hello <- function(friend) {
+hello <- function(friend=NULL) {
+  if ( is.null(friend) ) {
+    print("Hello!")
+  } else {
   print(paste0("Hello, ",friend,"!"))
+  }
 }
